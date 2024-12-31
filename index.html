@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      body.dark-mode {
+          background-color: #121212;
+          color: #ffffff;
+      }
+    
+      .dark-mode .navbar {
+          background-color: #1e1e1e;
+      }
+      .dark-mode .all-project{
+        background-color: #333333;
+      }
+
+    
+      .dark-mode .links, .dark-mode .button {
+          color: #ffffff;
+      }
+    
+      .dark-mode .formfield {
+          background-color: #333333;
+          color: #ffffff;
+          border: 1px solid #555555;
+      }
+    
+      .dark-mode .btn-pink {
+          background-color: #ff4081;
+          color: #ffffff;
+      }
+    </style>
+    
+</head>
+<body>
+  
+
+    
+      <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="./files/OIP.jpeg" class="logo">
+                    <div class="logo-text" style="background: linear-gradient(90deg, #03a9f4, #f441a5); -webkit-background-clip: text; color: transparent;">bhinav Gupta</div>
+                    
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#projects"  class="links">Projects</a></div>
+                    <div><a href="#skills"    class="links">Skills</a></div>
+                    <div><a href="#contactme" class="links">Contact Me</a></div>
+                    <div class="dark-mode-toggle">
+                      <button id="darkModeToggle" class="links">Dark Mode</button>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="hero-section">
+
+                <div class="faded-text">Abhinav Gupta</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Abhinav Gupta</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role">Cod</span><span class="typed-cursor" aria-hidden="true">|</span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here you’ll
+                        <br>
+                        learn about my journey as a software developer.
+                    </div>
+                    
+                    <div class="btn">
+                        <button class="button hire">Hire Me</button>
+                      </div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icon-dots">
+                            <img src="./files/dots.png" alt="">
+                      </div>
+                      <div class="absolute icon-cube">
+                            <img src="./files/cube.png" alt="">
+                      </div>
+                      <div class="absolute icon-circle">
+                            <img src="./files/circle.png" alt="">
+                      </div>
+                      <div class="absolute icon-zigzag">
+                            <img src="./files/zigzags.png" alt="">
+                      </div>
+                      <div class="absolute icon-plus">
+                            <img src="./files/plus.png" alt="">
+                      </div>
+                      <div class="user-image">
+                            <img src="./files/WhatsApp Image 2024-06-02 at 10.12.11 PM (1).jpeg" alt="">
+                      </div>
+                </div>
+    
+        </div>
+        <section class="all-project">
+          <h2 class="section-heading" id="projects">Project</h2>
+          <div class="project-container">
+            <div class="project-card" id="project1">
+              <div class="project-number project-number-left">01</div>
+              <div class="project-content project-content-left">
+                <h2 class="project-heading">Typing Test App</h2>
+                <p class="project-sub-heading">
+                  It is a Typing Test App where you can dynamically test your Typing Speed 
+                </p>
+                <div class="extra-info" id="extra-info-project1" style="display: none;">
+                    <p>This Typing Test App is designed to evaluate your typing speed and accuracy. <br> It dynamically generates a passage for you to type,  and upon completion, it calculates <br>your words per minute (wpm) and accuracy percentage. </p>
+                </div>
+                <div class="btn1">
+                  <button class="button btn read-more" onclick="toggleExtraInfo('project1')">Read <br/> More</button>
+                  <a href="https://github.com/aabhinavvvvvvv/Typing-Test">
+                    <img src="./files/github.png" alt="" width="30rem">
+                  </a>
+                  <a href="https://aabhinavvvvvvv.github.io/Typing-Test/">
+                    <img src="./files/link.png" alt="" width="30rem">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project-card" id="project2">
+              <div class="project-number project-number-right">02</div>
+              <div class="project-content project-content-right">
+                <h2 class="project-heading">Tic-Tac-Toe</h2>
+                <p class="project-sub-heading">
+                Tic-Tac-Toe is a classic game that has been enjoyed by people of all ages for generations. 
+                <div class="extra-info" id="extra-info-project2" style="display: none;">
+                  <p>Tic-Tac-Toe is a classic game that has been enjoyed by people of all ages for generations. <br> This implementation allows you to play against the computer or another player.</p>
+                </div>
+                <div class="btn1">
+                  <button class="button btn read-more" onclick="toggleExtraInfo('project2')">Read <br/> More</button>
+                  <a href="https://github.com/aabhinavvvvvvv/Tic-Tac-Toe">
+                    <img src="./files/github.png" alt="" width="30rem">
+                  </a>
+                  <a href="https://aabhinavvvvvvv.github.io/Tic-Tac-Toe/">
+                    <img src="./files/link.png" alt="" width="30rem">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project-card" id="project3">
+              <div class="project-number project-number-left">03</div>
+              <div class="project-content project-content-left">
+                <h2 class="project-heading">Password-Generator</h2>
+                <p class="project-sub-heading">
+                  Password Generator is a simple and secure password generator that generates random passwords for you.
+                </p>
+                <div class="extra-info" id="extra-info-project3" style="display: none;">
+                  <p>Password Generator is a tool designed to generate strong and unique passwords <br> for your online accounts. It uses a combination of uppercase and lowercase letters,<br> numbers, and special characters to create a password that is difficult to guess or crack.</p>
+                </div>
+                <div class="btn1">
+                  <button class="button btn read-more" onclick="toggleExtraInfo('project3')">Read <br/> More</button>
+                  <a href="https://github.com/aabhinavvvvvvv/Password-Generator">
+                    <img src="./files/github.png" alt="" width="30rem">
+                  </a>
+                  <a href="https://aabhinavvvvvvv.github.io/Password-Generator/">
+                    <img src="./files/link.png" alt="" width="30rem">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div id="skills" class="container skills-container">
+          <div class="absolute skill-fade-text">Skills</div>
+          <!-- Left Section -->
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br>
+              MyTech Stack
+            </h2>
+            <div class="skill-subHeading">
+              <p>
+                Hi Everyone My name is Abhinav Kumar Gupta 
+              </p><p>
+                I am a software developer who specializes in web development using JavaScript, React, Node.js, and other modern technologies. <br>
+              </p>
+              <p>
+                Currently I am working with Tech Team of Blitz'25 in the Website Building
+              </p>
+            </div>
+          </div>
+      
+          <!-- Right Section -->
+      
+          <div class="skill-container-right">
+            <img src="./Files/userAsset/blob vector.png" class="blob-style" alt="">
+      
+            <img src="./files/HTML.png" alt="" class="skills-logo">
+            <img src="./files/CSS.png" alt="" class="skills-logo">
+            <img src="./files/Javascript.svg" alt="" class="skills-logo">
+            <img src="./files/React.png" alt="" class="skills-logo">
+            <img src="./files/NodeJs.svg" alt="" class="skills-logo">
+            <img src="./files/Redux.svg" alt="" class="skills-logo">
+            <img src="./files/Tailwind.png" alt="" class="skills-logo">
+            <img src="./files/Bootstrap.svg" alt="" class="skills-logo">
+            <img src="./files/Express.png" alt="" class="skills-logo">
+            <img src="./files/Git.svg" alt="" class="skills-logo">
+            <img src="./files/Github.svg" alt="" class="skills-logo">
+            <img src="./files/MongoDB.svg" alt="" class="skills-logo">
+          </div>
+        </div>
+        <div id="contactme" class="contactus-container">
+          <div class="container">
+            <h1 class="contactus-heading">Contact Me</h1>
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+      
+            <div class="contactus-form-container">
+              <form class="form" action="https://api.web3forms.com/submit" method="post">
+                <div class="formfield-container">
+                  <input type="hidden" name="access_key" value="ea860dcb-6eda-4190-a80e-1124c1071aae">
+                  <input class="formfield" type="text" name="name" id="" placeholder="Enter your name ">
+                </div>
+                <div class="formfield-container">
+                  <input class="formfield" type="email" name="email" id="" placeholder="Enter your email address">
+                </div>
+                <div class="formfield-container">
+                  <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject">
+                </div>
+                <div class="formfield-container">
+                  <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              </form>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="container footer-wrapper">
+            <div class="footer-faded-text">Abhinav</div>
+            <div class="link-wrapper">
+              <div>
+                <a href="#projects">Projects</a>
+              </div>
+              <div>
+                <a href="#skills">Skills</a>
+              </div>
+              <div>
+                <a href="#contactme">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role", {
+          strings: [
+            "Web Developer",
+            "FrontEnd Developer",
+            "DSA-Intermediate",
+            "Bakcend Learner",
+          ],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1000,
+        });
+const darkModeToggle = document.getElementById('darkModeToggle');
+let isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+if (isDarkMode) {
+    document.body.classList.add('dark-mode');
+    darkModeToggle.textContent = 'Light Mode';
+}
+darkModeToggle.addEventListener('click', () => {
+    isDarkMode = !isDarkMode;
+
+    document.body.classList.toggle('dark-mode', isDarkMode);
+
+    darkModeToggle.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
+    localStorage.setItem('darkMode', isDarkMode);
+});
+
+function toggleExtraInfo(projectId) {
+    const extraInfo = document.getElementById(`extra-info-${projectId}`);
+    if (extraInfo.style.display === "none") {
+        extraInfo.style.display = "block";
+    } else {
+        extraInfo.style.display = "none";
+    }
+}
+
+      </script>
+      
+</body>
+</html>
