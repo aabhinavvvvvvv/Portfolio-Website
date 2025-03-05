@@ -113,6 +113,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: center;
           width: 100%;
           padding: 1rem;
         }
@@ -256,33 +257,22 @@
     }
 
     .all-project {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 2rem 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 4rem 0;
       width: 100%;
     }
 
     .project-container {
-      width: 100%;
       max-width: 1200px;
-      margin: 0 auto;
-      padding: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      margin: 2rem auto;
+      padding: 0 2rem;
     }
 
     .project-card {
-      width: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 15px;
-      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
       position: relative;
     }
 
@@ -295,6 +285,7 @@
       align-items: center;
       justify-content: center;
     }
+    
     </style>
     
 </head>
@@ -375,8 +366,8 @@
           <div class="project-container">
             <div class="project-card" id="project1">
               <div class="project-number project-number-left">01</div>
-              <div class="project-content project-content-left">
-                <h2 class="project-heading">Typing Test App</h2>
+              <div class="project-content project-content-left p1">
+                <h2 class="project-heading ">Typing Test App</h2>
                 <p class="project-sub-heading">
                   It is a Typing Test App where you can dynamically test your Typing Speed 
                 </p>
@@ -398,7 +389,7 @@
           <div class="project-container">
             <div class="project-card" id="project2">
               <div class="project-number project-number-right">02</div>
-              <div class="project-content project-content-right">
+              <div class="project-content project-content-right p2">
                 <h2 class="project-heading">Tic-Tac-Toe</h2>
                 <p class="project-sub-heading">
                 Tic-Tac-Toe is a classic game that has been enjoyed by people of all ages for generations. 
@@ -420,7 +411,7 @@
           <div class="project-container">
             <div class="project-card" id="project3">
               <div class="project-number project-number-left">03</div>
-              <div class="project-content project-content-left">
+              <div class="project-content project-content-left p3">
                 <h2 class="project-heading">Password-Generator</h2>
                 <p class="project-sub-heading">
                   Password Generator is a simple and secure password generator that generates random passwords for you.
